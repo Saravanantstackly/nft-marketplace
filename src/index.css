@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-nft-bg: #08060f;
+  --color-nft-card: #11101a;
+  --color-nft-text-main: #ffffff;
+  --color-nft-text-muted: #8f8aa3;
+  --color-nft-border: #252238;
+
+  --color-accent-primary: #6d5dfb;
+  --color-accent-pink: #ff4d8d;
+
+  --color-stat-purple: #7a5dfa;
+  --color-stat-red: #f43f5e;
+  --color-stat-green: #10b981;
+}
+
+@layer base {
+  html {
+    background: #08060f;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: #08060f;
+    color: white;
+    font-family: system-ui, sans-serif;
+  }
+
+  #root {
+    min-height: 100vh;
+    background: #08060f;
+  }
+}
+
+.bg-nft-card {
+  background-color: #11101a !important;
+}
+
+.border-nft-border {
+  border-color: #252238 !important;
+}
+
+.text-nft-text-main {
+  color: white !important;
+}
+
+.text-nft-text-muted {
+  color: #8f8aa3 !important;
+}
+
+.shadow-figma {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+}
